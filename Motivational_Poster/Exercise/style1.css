@@ -1,0 +1,11 @@
+h1,h2{
+    color: blueviolet;
+}
+
+.box li{
+    color: red;
+}
+
+li.done{
+    color: seagreen;
+} 

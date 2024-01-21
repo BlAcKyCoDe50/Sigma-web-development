@@ -1,0 +1,24 @@
+/* h2{
+    color: yellowgreen;
+} */
+
+body{
+    border: solid rgb(146, 0, 0) 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Yellow{
+    color: yellowgreen;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.White{
+    background-color: red;
+    color: white;
+}
