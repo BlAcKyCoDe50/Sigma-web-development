@@ -1,0 +1,67 @@
+.wrapper{
+
+    width: 100%;
+    /* position: relative; */
+
+
+}
+.map{
+    position: absolute;
+    filter: blur(0.9px);
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.flag-container{
+    display: flex;
+    position: relative;
+    left: 25%;
+    background-color: transparent;
+    box-shadow: 0px 0px 90px 1px #989;
+    border-top-right-radius: 25px;
+    top: 25px;
+    
+
+}
+
+
+.stick{
+    height: 450px;
+    width: 10px;
+    background: black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* position: relative; */
+}
+
+.flag{
+    width: 270px;
+    height: 180px;
+    box-shadow: 0px 0px 90px 1px #989;
+    background-color: transparent;
+    /* position: relative; */
+    border-top-right-radius: 40
+    px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.top{
+    height: 60px;
+    background-color: #ff9933 ;
+}
+
+.middle{
+    height: 60px;
+    background-color: white;
+    text-align: center;
+
+    
+}
+
+.bottom{
+    height: 60px;
+    background-color: green;
+}
