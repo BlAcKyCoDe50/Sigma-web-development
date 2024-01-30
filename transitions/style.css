@@ -1,0 +1,66 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding-left: 20px;
+    position: absolute;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier(3); */
+    /* transition: all 2s ease-in-out 1s; */
+    /* animation-name: coloranimate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: coloranimate 2s ease-in 0s infinite normal;
+} 
+
+
+@keyframes coloranimate {
+    from{background-color: aquamarine;}
+    to{background-color:darkgray;}
+}
+
+/* @keyframes coloranimate{
+    from{left: 0px;
+    background-color: aquamarine;}
+    to{
+        left: 200px;
+        background-color:dimgrey;
+    }
+} */
+
+@keyframes coloranimate{
+    0% {left: 0px;
+    background-color: red;}
+    
+    50%{
+        background-color: green;
+    }
+    
+    100% {
+        left: 200px;
+        background-color:blue;
+    }
+}
+
+div:hover{
+    /* background-color: rgb(87, 1, 145);
+    font-size: 20px;
+    rotate:  60deg;
+    transform: scale(2);
+    transform:translateY(200px); */
+    /* //Animation */
+
+
+}
+
+div:active{
+    background-color: rgb(87, 1, 145);
+    transform: skewX(100px);
+}
