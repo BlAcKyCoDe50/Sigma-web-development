@@ -1,0 +1,47 @@
+/* div{
+    background-color:pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:black;
+}  
+
+li{
+    list-style-type: none;
+    display:inline;
+} */
+
+.nav-bar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* div inside another div */
+
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+}
