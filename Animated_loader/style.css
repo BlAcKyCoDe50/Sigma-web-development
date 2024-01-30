@@ -1,0 +1,37 @@
+#loader{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid #343434;
+    border-top: 20px solid #7df9ff ;
+    animation: spinAnimate 3s ease-in-out 0s infinite normal;
+    animation: anim 2s linear infinite;
+    
+}
+
+@keyframes spinAnimate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim{
+    from{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#loading{
+    width: 900px;
+    height: 20px;
+    background-color: black;
+    color:goldenrod;
+    padding-left: 30px;
+}
