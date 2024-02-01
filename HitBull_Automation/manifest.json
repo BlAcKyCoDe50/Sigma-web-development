@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Quiz Automator",
+    "version": "1.0",
+    "description": "Automate quiz interactions",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
