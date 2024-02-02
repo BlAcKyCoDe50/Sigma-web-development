@@ -122,3 +122,57 @@ span{
 .second-panel{
     background-color: ;
 }
+
+
+/* *******PANEL************** */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.9rem;
+}
+
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* **********hero-section*********** */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
