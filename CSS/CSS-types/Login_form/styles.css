@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: ; */
+    /* background-color: seagreen; */
+    box-sizing: border-box;
+
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
+    background-image: url("Blacky.PNG");
+
+}
+
+.wrapper {
+ 
+width: 420px;
+background-color: rgb(129, 178, 166);
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.wrapper .input-box{
+    width: 100px;
+    height: 50px;
+    background: salmon;
+    margin: 30px;
+}
